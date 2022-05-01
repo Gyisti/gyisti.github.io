@@ -6,6 +6,7 @@ collections:
   posts:
     output: true
 
+google_analytics: UA-227569533-1
 encoding: "utf-8"
 
 markdown: kramdown
