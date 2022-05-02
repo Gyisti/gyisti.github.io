@@ -1,18 +1,35 @@
+# site variables
 name: Gyisti Production
 title: Gyisti Production
 description: making the some mods, resource packs, websites, games and etc.
 url: gyisti.github.io
+github_username: Gyisti
+author: Gyisti Production
+
+# collection
 collections:
   posts:
     output: true
 
+# this site's custom variable
+gyistidata:
+  buttontext: GSP
+  homebicon: /favicon.ico
 
+# a exclude variable to disable user access target directory and file
+exclude: css
+
+# google variable
 google_analytics: UA-227569533-1
+
+# site encoding
 encoding: "utf-8"
 
+# script type
 markdown: kramdown
 highlighter: rouge
 
+# markdown config
 kramdown:
   auto_ids: true
   entity_output: as_char
@@ -21,7 +38,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   
-
+# webrick does don't know this
 webrick:
   headers:
     testing: test
