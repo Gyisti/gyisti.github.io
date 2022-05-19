@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+#inner {
+    padding: 0px;
+    margin: 0px;
+}
+
 #header {
     height: 50px;
     background-color: #3f51b5;
@@ -25,6 +30,15 @@ body {
     vertical-align: middle;
     color: white;
 }
+
+#desc {
+    position: absolute;
+    top: -32px;
+    left: 280px;
+    color: white;
+    /* font-family: monospace; */
+    font-weight: 100;
+  }
 
 #console {
     background-color: black;
